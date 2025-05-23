@@ -1,2 +1,2 @@
-# Gemini2.5Pro-
+# Gemini2.5Pro-Russian
 俄语版
