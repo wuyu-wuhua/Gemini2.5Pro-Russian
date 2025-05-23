@@ -10,44 +10,6 @@
 
   gtag('config', 'G-CX67BELL1V');
 </script>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const particleContainer = document.createElement('div');
-        particleContainer.classList.add('particles'); // CSS中定义的类名
-        document.body.appendChild(particleContainer);
-        const numParticles = 1000; // 增加粒子数量，例如到200
-    
-        for (let i = 0; i < numParticles; i++) {
-            let particle = document.createElement('div');
-            particle.classList.add('particle'); // CSS中定义的类名
-            particle.style.left = `${Math.random() * 100}%`;
-            particle.style.top = `${Math.random() * -50 - 5}vh`; // Start closer to the top
-            particle.style.width = `${Math.random() * 3 + 2}px`; // 随机大小，例如从 2px 到 5px
-            particle.style.height = particle.style.width;
-            particle.style.opacity = `${Math.random() * 0.5 + 0.5}`; // 随机透明度
-            
-            // 随机下落速度和延迟
-            const duration = Math.random() * 5 + 5; // 5到10秒的持续时间
-            particle.style.animationDuration = `${duration}s`;
-            particle.style.animationDelay = `${Math.random() * 5}s`;
-            
-            // 随机水平漂移，使轨迹更多样
-            particle.style.setProperty('--drift', `${(Math.random() - 0.5) * 60}vw`); 
-            
-            particleContainer.appendChild(particle);
-        }
-    
-        // 如果页面中还在加载旧的 canvas-nest.js 脚本，这段代码会尝试移除它
-        const canvasNestScript = document.querySelector('script[src*="canvas-nest.js"]');
-        if (canvasNestScript) {
-            canvasNestScript.remove();
-        }
-        const inlineCanvasNest = Array.from(document.scripts).find(script => script.textContent.includes('canvas-nest.js'));
-        if(inlineCanvasNest) {
-            inlineCanvasNest.remove();
-        }
-    });
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="registerTitle">Регистрация - Gemini 2.5 Pro</title>
