@@ -7,7 +7,7 @@ const translations = {
         "nav-chat": "Чат",
         "nav-capabilities": "Возможности",
         "nav-reviews": "Отзывы",
-        "main-title": "Gemini 2.5 Pro Русский",
+        "main-title": "Gemini2.5Pro русская версия",
         
         // 侧边栏菜单
         "menu-login": "Нажмите для входа",
@@ -67,7 +67,7 @@ const translations = {
         
         // 预设提示
         "presets-title": "Предварительные настройки",
-        "copyrightText": "Содержание создано ИИ, не гарантируется точность,Только для справки",
+        "copyrightText": "Содержание создано ИИ, не гарантируется точность, только для справки.",
         
         // 用户评价页面
         "user-reviews": "Пользовательские реальные отзывы",
@@ -305,7 +305,7 @@ const translations = {
         "confirmPasswordPlaceholder": "Подтвердить пароль",
         "registerButtonText": "Регистрация",
         "alreadyAccountPrompt": "Уже есть учетная запись? Войти",
-        "htmlTitle": "Gemini 2.5 Pro русский | Быстрый доступ и загрузка моделей AI",
+        "htmlTitle": "Gemini 2.5 Pro Русская версия | Высокоскоростной внутренний доступ и загрузка модели ИИ",
 
         // Profile Page Specific (already added in previous steps, ensure they are here)
         "profilePageTitle": "Информация о пользователе - Gemini 2.5 Pro",
